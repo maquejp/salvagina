@@ -17,7 +17,7 @@ export default function ContactView() {
         <Typography>François Huart</Typography>
         <Typography>11, rue saules Bastin</Typography>
         <Typography>4920 Remouchamps</Typography>
-        <Typography>Belgiqye</Typography>
+        <Typography>Belgique</Typography>
         <Typography>Tel: +32 (0) 4 384 58 22</Typography>
         <Typography>Email: francois.huart@gmail.com</Typography>
       </CardContent>
