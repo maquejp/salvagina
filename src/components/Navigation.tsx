@@ -18,11 +18,10 @@ export default function NavigationComponent() {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const navItems: NavigationItemInterface[] = [
     { id: "accueil", label: "Accueil" },
-    { id: "tarifs", label: "Tarifs" },
-    { id: "disponibilites", label: "Disponibilités" },
-    { id: "appreciations", label: "Appréciations" },
-    { id: "acceder", label: "Accéder" },
-    { id: "visiter", label: "Visiter la région" },
+    { id: "riomar", label: "Riomar" },
+    { id: "acces", label: "Accès" },
+    { id: "villa", label: "Villa" },
+    { id: "contact", label: "Contact" },
   ];
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
@@ -44,8 +43,7 @@ export default function NavigationComponent() {
         fontSize={"medium"}
         sx={{ my: 2, color: "#fff", textAlign: "center" }}
       >
-        Jean-Philippe <br />
-        Maquestiaux
+        Salvagina
       </Typography>
       <List sx={{ textAlign: "left" }}>
         {navItems.map((item) => (
@@ -69,7 +67,7 @@ export default function NavigationComponent() {
       <AppBar position="sticky" sx={{ background: "#2fa4e7" }}>
         <Toolbar>
           <Typography fontSize={"large"} component="div" sx={{ flexGrow: 1 }}>
-            Atlantis
+            Salvagina
           </Typography>
           <Box sx={{ display: { xs: "block", sm: "none" } }}>
             <IconButton

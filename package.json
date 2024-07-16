@@ -1,5 +1,5 @@
 {
-  "name": "atlantis",
+  "name": "salvagina",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "build_prod": "tsc -b && vite build --base=/",
-    "build_dev": "tsc -b && vite build --base=https://d.atlantis.huart.me/",
+    "build_dev": "tsc -b && vite build --base=https://d.francois.huart.me/",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
