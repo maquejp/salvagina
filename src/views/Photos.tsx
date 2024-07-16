@@ -1,4 +1,6 @@
 import { Card, CardContent, Typography } from "@mui/material";
+import carouselData from "../datas/carousel";
+import CarouselComponent from "../components/Carousel";
 
 export default function PhotosView() {
   return (
@@ -14,6 +16,7 @@ export default function PhotosView() {
         >
           Photos
         </Typography>
+        <CarouselComponent images={carouselData} />
       </CardContent>
     </Card>
   );
