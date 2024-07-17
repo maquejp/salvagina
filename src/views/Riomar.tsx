@@ -1,4 +1,5 @@
 import { Card, CardContent, Typography } from "@mui/material";
+import MapComponent from "../components/Map";
 
 export default function RiomarView() {
   return (
@@ -44,7 +45,7 @@ export default function RiomarView() {
             paddingBottom: "10px",
           }}
         />
-        <Typography>place-holder-openstreet-map</Typography>
+        <MapComponent />
         <Typography>
           Le climat est particulièrement remarquable ; plus précisément la
           région de Riomar bénéficie d'un microclimat.
