@@ -1,5 +1,5 @@
 import { Card, CardContent, Typography } from "@mui/material";
-import MapComponent from "../components/Map";
+import MapComponent from "../components/map/Map";
 
 export default function RiomarView() {
   return (
