@@ -55,7 +55,17 @@ export default function VillaView() {
           Une salle de bain avec baignoire (douche), évier, WC.
         </Typography>
         <Typography>Ci-dessous, le plan du lotissement:</Typography>
-        <img src="images/plan_lotissement.jpg" alt="villa" />
+        <img
+          src="images/plan_lotissement.jpg"
+          alt="villa"
+          style={{
+            display: "block",
+            margin: "auto",
+            maxWidth: "100%",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+          }}
+        />
       </CardContent>
     </Card>
   );
