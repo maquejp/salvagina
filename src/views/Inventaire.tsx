@@ -17,7 +17,7 @@ export default function InventaireView() {
   const [expanded, setExpanded] = useState<string | false>(false);
 
   const handleChange =
-    (section: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
+    (section: string) => (_: React.SyntheticEvent, isExpanded: boolean) => {
       setExpanded(isExpanded ? section : false);
     };
 
