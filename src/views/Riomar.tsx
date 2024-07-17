@@ -33,7 +33,17 @@ export default function RiomarView() {
           Liège : 1450 KM, Luxembourg : 1280 Km, Lyon : 750 Km, Barcelone : 170
           Km
         </Typography>
-        <img src="images/carte_zone.jpg" alt="carte-zone-riomar" />
+        <img
+          src="images/carte_zone.jpg"
+          alt="carte-zone-riomar"
+          style={{
+            display: "block",
+            margin: "auto",
+            maxWidth: "100%",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+          }}
+        />
         <Typography>place-holder-openstreet-map</Typography>
         <Typography>
           Le climat est particulièrement remarquable ; plus précisément la
